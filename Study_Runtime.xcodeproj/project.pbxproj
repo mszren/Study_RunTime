@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85F1FDBF1EEA48FE00D93A66 /* UIView+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F1FDBE1EEA48FE00D93A66 /* UIView+Hook.m */; };
 		85F7F22D1EE9155200510966 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F7F22C1EE9155200510966 /* main.m */; };
 		85F7F2301EE9155200510966 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F7F22F1EE9155200510966 /* AppDelegate.m */; };
 		85F7F2331EE9155200510966 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F7F2321EE9155200510966 /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		85F7F23B1EE9155200510966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85F7F2391EE9155200510966 /* LaunchScreen.storyboard */; };
 		85F7F2461EE9155200510966 /* Study_RuntimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F7F2451EE9155200510966 /* Study_RuntimeTests.m */; };
 		85F7F2511EE9155200510966 /* Study_RuntimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F7F2501EE9155200510966 /* Study_RuntimeUITests.m */; };
+		85F7F2601EE91E0500510966 /* SomeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F7F25F1EE91E0500510966 /* SomeClass.m */; };
+		85F7F2661EE941B300510966 /* ForwardClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 85F7F2651EE941B300510966 /* ForwardClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		85F1FDBD1EEA48FE00D93A66 /* UIView+Hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Hook.h"; sourceTree = "<group>"; };
+		85F1FDBE1EEA48FE00D93A66 /* UIView+Hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Hook.m"; sourceTree = "<group>"; };
 		85F7F2281EE9155200510966 /* Study_Runtime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Study_Runtime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F7F22C1EE9155200510966 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		85F7F22E1EE9155200510966 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,10 @@
 		85F7F24C1EE9155200510966 /* Study_RuntimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Study_RuntimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F7F2501EE9155200510966 /* Study_RuntimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Study_RuntimeUITests.m; sourceTree = "<group>"; };
 		85F7F2521EE9155200510966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85F7F25E1EE91E0500510966 /* SomeClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SomeClass.h; path = ../SomeClass.h; sourceTree = "<group>"; };
+		85F7F25F1EE91E0500510966 /* SomeClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SomeClass.m; path = ../SomeClass.m; sourceTree = "<group>"; };
+		85F7F2641EE941B300510966 /* ForwardClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForwardClass.h; sourceTree = "<group>"; };
+		85F7F2651EE941B300510966 /* ForwardClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForwardClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +110,14 @@
 		85F7F22A1EE9155200510966 /* Study_Runtime */ = {
 			isa = PBXGroup;
 			children = (
-				85F7F22E1EE9155200510966 /* AppDelegate.h */,
-				85F7F22F1EE9155200510966 /* AppDelegate.m */,
+				85F1FDBD1EEA48FE00D93A66 /* UIView+Hook.h */,
+				85F1FDBE1EEA48FE00D93A66 /* UIView+Hook.m */,
+				85F7F2641EE941B300510966 /* ForwardClass.h */,
+				85F7F2651EE941B300510966 /* ForwardClass.m */,
+				85F7F25E1EE91E0500510966 /* SomeClass.h */,
+				85F7F25F1EE91E0500510966 /* SomeClass.m */,
 				85F7F2311EE9155200510966 /* ViewController.h */,
 				85F7F2321EE9155200510966 /* ViewController.m */,
-				85F7F2341EE9155200510966 /* Main.storyboard */,
-				85F7F2371EE9155200510966 /* Assets.xcassets */,
-				85F7F2391EE9155200510966 /* LaunchScreen.storyboard */,
-				85F7F23C1EE9155200510966 /* Info.plist */,
 				85F7F22B1EE9155200510966 /* Supporting Files */,
 			);
 			path = Study_Runtime;
@@ -117,6 +126,12 @@
 		85F7F22B1EE9155200510966 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				85F7F22E1EE9155200510966 /* AppDelegate.h */,
+				85F7F22F1EE9155200510966 /* AppDelegate.m */,
+				85F7F2341EE9155200510966 /* Main.storyboard */,
+				85F7F2371EE9155200510966 /* Assets.xcassets */,
+				85F7F2391EE9155200510966 /* LaunchScreen.storyboard */,
+				85F7F23C1EE9155200510966 /* Info.plist */,
 				85F7F22C1EE9155200510966 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -276,8 +291,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85F7F2601EE91E0500510966 /* SomeClass.m in Sources */,
 				85F7F2331EE9155200510966 /* ViewController.m in Sources */,
 				85F7F2301EE9155200510966 /* AppDelegate.m in Sources */,
+				85F1FDBF1EEA48FE00D93A66 /* UIView+Hook.m in Sources */,
+				85F7F2661EE941B300510966 /* ForwardClass.m in Sources */,
 				85F7F22D1EE9155200510966 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +532,7 @@
 				85F7F2571EE9155200510966 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85F7F2581EE9155200510966 /* Build configuration list for PBXNativeTarget "Study_RuntimeTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +541,7 @@
 				85F7F25A1EE9155200510966 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85F7F25B1EE9155200510966 /* Build configuration list for PBXNativeTarget "Study_RuntimeUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +550,7 @@
 				85F7F25D1EE9155200510966 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
